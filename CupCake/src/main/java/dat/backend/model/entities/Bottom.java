@@ -5,8 +5,7 @@ public class Bottom {
     int bottomVar;
     int bottomPrice;
 
-    public Bottom(int idBottom, int bottomVar, int bottomPrice) {
-        this.idBottom = idBottom;
+    public Bottom(int bottomVar, int bottomPrice) {
         this.bottomVar = bottomVar;
         this.bottomPrice = bottomPrice;
     }

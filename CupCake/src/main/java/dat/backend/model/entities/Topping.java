@@ -5,8 +5,8 @@ public class Topping {
    int toppingVar;
    int toppingPrice;
 
-    public Topping(int idTopping, int toppingVar, int toppingPrice) {
-        this.idTopping = idTopping;
+    public Topping(int toppingVar, int toppingPrice) {
+
         this.toppingVar = toppingVar;
         this.toppingPrice = toppingPrice;
     }
