@@ -53,7 +53,7 @@ class ItemMapper {
         }
     }
 
-    public static Item getItembyId(int item_id, ConnectionPool connectionPool) {
+    public static Item getItemById(int item_id, ConnectionPool connectionPool) {
 
         String sql = "select * from item where item_id = ?";
 
